@@ -44,10 +44,14 @@ div.img_section {
 }
 
 div.text_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 50%;
   height: 100%;
 
-  padding: 200px 100px;
+  padding: 80px;
 }
 
 div.text_section h1 {
@@ -72,7 +76,7 @@ div.text_section span {
 
 section.first_section button {
   margin-top: 20px;
-  width: 60%;
+  width: 70%;
   padding: 20px;
 
   text-transform: uppercase;
@@ -83,4 +87,8 @@ section.first_section button {
 
   background-color: var(--font-color);
   color: white;
+}
+
+section.first_section button:hover {
+  background-color: #ce7b31;
 }
