@@ -92,3 +92,29 @@ section.first_section button {
 section.first_section button:hover {
   background-color: #ce7b31;
 }
+
+
+/* SECOND SECTION */
+
+section.second_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  text-align: center;
+
+  border: 5px solid red;
+}
+
+section.second_section .box_text {
+  width: 80%;
+  border: 1px solid blue;
+}
+
+section.second_section h1 {
+  font-size: 40px;
+}
