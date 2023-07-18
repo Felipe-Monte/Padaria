@@ -107,14 +107,62 @@ section.second_section {
 
   text-align: center;
 
-  border: 5px solid red;
+  color: white;
+  background: url(assets/padaria_fundo.jpg) no-repeat;
+  background-size: cover;
 }
 
 section.second_section .box_text {
-  width: 80%;
-  border: 1px solid blue;
+  width: 70%;
 }
 
 section.second_section h1 {
   font-size: 40px;
+}
+
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn_wrapper button.btn_1 {
+  margin-top: 20px;
+  width: 30%;
+  padding: 20px;
+
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+
+  border-radius: 50px;
+  border: none;
+
+  background-color: var(--font-color);
+  color: white;
+}
+
+.btn_wrapper button.btn_2 {
+  margin-top: 20px;
+  width: 30%;
+  padding: 20px;
+
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+
+  border-radius: 50px;
+  border: none;
+
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn_wrapper button.btn_1:hover {
+  background-color: #ef903d;
+}
+
+.btn_wrapper button.btn_2:hover {
+  background-color: white;
+  color: black;
 }
